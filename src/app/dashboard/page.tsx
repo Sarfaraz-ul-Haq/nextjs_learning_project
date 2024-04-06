@@ -27,6 +27,12 @@ function Dashboard() {
         >
           Go to Settings or Analytics
         </button>
+        <div className="text-red-500 py-3">
+          (useRouter hook is used here for programmatic navigation. If the
+          randomly generated number is less than 0.5, <br /> then this button
+          will navigate to /dashboard/settings <br /> otherwise, it will
+          navigate to /dashboard/analytics.)
+        </div>
       </div>
     </div>
   );
