@@ -8,7 +8,7 @@ function BackButton() {
   return (
     <button
       onClick={router.back}
-      className="bg-gray-100 border border-gray-300 hover:border-black hover:bg-gray-200 text-gray-800 hover:text-gray-600 px-4 py-2 rounded-md transition duration-300 ease-in-out"
+      className="bg-gray-100 border border-gray-300 hover:border-black hover:bg-gray-200 text-gray-800 hover:text-gray-600 px-4 py-2 rounded-md"
     >
       Go Back
     </button>
