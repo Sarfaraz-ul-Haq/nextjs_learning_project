@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="bottom-0 w-full bg-gray-200 text-center">
+    <footer className="fixed bottom-0 w-full bg-gray-400 text-center">
       <p className="py-4">Your footer content here</p>
     </footer>
   );
