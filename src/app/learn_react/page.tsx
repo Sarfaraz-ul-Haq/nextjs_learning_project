@@ -1,9 +1,9 @@
 import BackButton from "@/components/back_button";
 
-function SettingsPage() {
+function LearnReact() {
   return (
     <div className="flex flex-col gap-3 py-3 px-5">
-      <div>Settings Page</div>
+      <div>{`Hello, I'm learning React.js`}</div>
       <div>
         <BackButton />
       </div>
@@ -11,4 +11,4 @@ function SettingsPage() {
   );
 }
 
-export default SettingsPage;
+export default LearnReact;
